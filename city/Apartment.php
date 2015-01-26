@@ -22,8 +22,8 @@ class Apartment{
     }
     
     //метод посчитать площадь без балконов
-    public function sqBezBalc(){     //методы описывают поведения экземпляров класса, то есть действия, которые они могут совершать   
-        return $this->square-$this->balconySq; //методы класса оьбъявляются как обычные функции
+    public function sqBezBalc(){   
+        return $this->square-$this->balconySq; 
 
     }
     
@@ -74,6 +74,5 @@ class Apartment{
         }
         }   
     }
-//$oneAp=new Apartment(rand(1,10),rand(1,3),rand(50,100),rand(5,10),rand(1,15),rand(1,7));
-//$oneAp->information();
+
 ?>
