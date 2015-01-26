@@ -1,0 +1,23 @@
+{
+    "name": "pc5-203/task_city",
+    "authors": [
+        {
+            "name": "Atsumoriso",
+            "email": "shustr8@gmail.com"
+        }
+    ],
+  "repositories":[
+        {     
+			"type": "vcs",       
+			"url": "https://github.com/Atsumoriso/task_city.git"
+		}  
+		],
+		"autoload": 
+			{ 
+				"psr-0": 
+					{ 
+					"City": "./"
+					} 	
+			}
+}
+
